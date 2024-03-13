@@ -45,6 +45,34 @@ public class Hw02 extends TestBase {
         Assert.assertEquals(errorMessageText, "Your username is invalid!", "Error message text is incorrect");
     }
 
+@Test
+    public void test2(){
+    // Open the page
+    driver.get("https://practicetestautomation.com/practice-test-login/");
 
+    // Type incorrect username
+    WebElement usernameField = driver.findElement(By.id("username"));
+    usernameField.sendKeys("incorrectUser");
+
+    // Type password
+    WebElement passwordField = driver.findElement(By.id("password"));
+    passwordField.sendKeys("Password123");
+
+    // Click Submit button
+    WebElement submitButton = driver.findElement(By.id("submit"));
+    submitButton.click();
+
+    // Verify error message is displayed
+    SoftAssert sa= new SoftAssert();
+    WebElement errorMessageElement = driver.findElement(By.id("error"));
+    sa.assertTrue(errorMessageElement.isDisplayed(), "Error message is not displayed");
+
+    // Verify error message text
+    String errorMessageText = errorMessageElement.getText();
+    sa.assertEquals(errorMessageText, "Your username is invalid!", "Error message text is incorrect");
+
+    // Assert all verifications
+    sa.assertAll();
+}
 }
 
