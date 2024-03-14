@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="loginWithIncorrectPassword">
+        <parameter name="username" value="student"/>
+        <parameter name="password" value="Password12345"/>
+        <classes>
+            <class name="sda.homworks.day16.Hw03"/>
+        </classes>
+    </test>
+    <test name="loginWithIncorrectUsername">
+        <parameter name="username" value="ra"/>
+        <parameter name="password" value="Password123"/>
+        <classes>
+            <class name="sda.homworks.day16.Hw03"/>
+        </classes>
+    </test>
+
+
+    <test name="loginWithWrongUsernameAndPassword">
+        <parameter name="username" value="rand"/>
+        <parameter name="password" value="Pass"/>
+        <classes>
+            <class name="sda.homworks.day16.Hw03"/>
+        </classes>
+    </test>
+
+    <test name="loginWithEmptyUsername">
+        <parameter name="username" value=""/>
+        <parameter name="password" value="Password123"/>
+        <classes>
+            <class name="sda.homworks.day16.Hw03"/>
+        </classes>
+    </test>
+
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+   <test name="Running a package Test">
+     <parameter name="name" value="Rand"></parameter>
+     <parameter name="surname" value="almjmaj"></parameter>
+     <parameter name="age" value="24"></parameter>
+       <classes>
+         <class name="sda.tests.Day16.C03UsingParameters"></class>
+     </classes>
+
+   </test>
+</suite>
