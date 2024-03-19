@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" data-provider-thread-count="2">
+    <test name="C:/Users/Rm506/IdeaProjects/SDA_2024_TestNg/src/test/java/sda/tests/Day18/C04ParallelTestDataProvider.java">
+
+        <classes>
+            <class name="sda.tests.Day18.C04ParallelTestDataProvider"></class>
+        </classes>
+    </test>
+</suite>
