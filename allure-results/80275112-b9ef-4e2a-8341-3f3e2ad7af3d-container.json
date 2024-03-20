@@ -1,1 +1,0 @@
-{"uuid":"80275112-b9ef-4e2a-8341-3f3e2ad7af3d","name":"sda.utilities.TestBase.setUp","children":["b6ec97cb-cd35-4f19-9f65-9fc133bd3768"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710837390066,"stop":1710837391666}],"afters":[],"start":1710837390065,"stop":1710837391666}

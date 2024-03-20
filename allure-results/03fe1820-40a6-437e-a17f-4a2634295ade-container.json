@@ -1,1 +1,0 @@
-{"uuid":"03fe1820-40a6-437e-a17f-4a2634295ade","name":"sda.tests.Day19.C03AllureTest01","children":["b6ec97cb-cd35-4f19-9f65-9fc133bd3768"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710837395212,"stop":1710837395374}],"start":1710837390025,"stop":1710837395378}
