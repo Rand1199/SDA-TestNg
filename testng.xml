@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" data-provider-thread-count="2">
-    <test name="C:/Users/Rm506/IdeaProjects/SDA_2024_TestNg/src/test/java/sda/tests/Day18/C04ParallelTestDataProvider.java">
-
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Rm506/IdeaProjects/SDA_2024_TestNg/src/test/java/sda/tests/Day19/C04AllureTest02.java">
         <classes>
-            <class name="sda.tests.Day18.C04ParallelTestDataProvider"></class>
+            <class name="sda.tests.Day19.C04AllureTest02">
+                <methods><include name="test01"/>
+                    <include name="test02"/>
+                    <include name="test03"/>
+                    <include name="test04"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
